@@ -4,10 +4,7 @@ import com.atguigu.springcloud.entities.CommonResult;
 import com.atguigu.springcloud.entities.Payment;
 import com.atguigu.springcloud.service.PaymentService;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
 
@@ -19,7 +16,8 @@ public class PaymentController {
     private PaymentService paymentService;
 
     @PostMapping(value = "/payment/create")
-    public CommonResult create(Payment payment) {
+
+    public CommonResult create(@RequestBody Payment payment) {
         int result = paymentService.create(payment);
         log.info("******插入结果：" + result);
 
@@ -38,7 +36,7 @@ public class PaymentController {
         if (result != null){
             return new CommonResult(200,"根据id查询成功", result);
         }else {
-            return new CommonResult(404,"没有对应记录，查询id：" + id, null);
+            return new CommonResult(404,"没有查询到记录，查询id：" + id, null);
         }
     }
 
