@@ -16,7 +16,8 @@ import javax.annotation.Resource;
 @RestController
 public class OderController {
 
-    public static final String PAYMENT_URL = "http://localhost:8001/";
+    //public static final String PAYMENT_URL = "http://localhost:8001/";
+    public static final String PAYMENT_URL = "http://CLOUD-PROVIDER-SERVICE";
 
     @Resource
     private RestTemplate restTemplate;
