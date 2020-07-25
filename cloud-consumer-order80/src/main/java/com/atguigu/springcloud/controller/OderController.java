@@ -27,8 +27,27 @@ public class OderController {
         return restTemplate.postForObject(PAYMENT_URL + "/payment/create", payment, CommonResult.class);
     }
 
+    //使用restTemplate的postForEntity方法
+    @GetMapping("/consumer/payment/postEntity/create")
+    public CommonResult<Payment> postEntityCreate(Payment payment) {
+        ResponseEntity<CommonResult> entity = restTemplate.postForEntity(PAYMENT_URL + "/payment/create", payment, CommonResult.class);
+        CommonResult result = entity.getBody();
+        return result;
+    }
+
     @GetMapping("/consumer/payment/getPaymentById/{id}")
     public  CommonResult<Payment> getPaymentById(@PathVariable("id") Long id) {
         return restTemplate.getForObject(PAYMENT_URL + "/payment/getPaymentById/" + id, CommonResult.class);
+    }
+
+    //使用restTemplate的getForEntity方法
+    @GetMapping("/consumer/payment/getEntity/{id}")
+    public  CommonResult<Payment> getPaymentEntityById(@PathVariable("id") Long id) {
+        ResponseEntity<CommonResult> entity = restTemplate.getForEntity(PAYMENT_URL + "/payment/getPaymentById/" + id, CommonResult.class);
+        if (entity.getStatusCode().is2xxSuccessful()) {
+            return entity.getBody();
+        }else {
+            return new CommonResult<>(404,"获取信息失败");
+        }
     }
 }
