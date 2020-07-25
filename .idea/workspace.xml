@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00b1c56b-8785-4d9e-aac8-986315eeb710" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/atguigu/springcloud/OrderFeignMain80.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/atguigu/springcloud/controller/OrderFeignController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/atguigu/springcloud/service/PaymentFeignService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/atguigu/springcloud/config/FeignConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/atguigu/springcloud/controller/OrderFeignController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/atguigu/springcloud/controller/OrderFeignController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/atguigu/springcloud/service/PaymentFeignService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/atguigu/springcloud/service/PaymentFeignService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-order80/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-order80/target/classes/com/atguigu/springcloud/controller/OrderFeignController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/target/classes/com/atguigu/springcloud/controller/OrderFeignController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-order80/target/classes/com/atguigu/springcloud/service/PaymentFeignService.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/target/classes/com/atguigu/springcloud/service/PaymentFeignService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/atguigu/springcloud/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/atguigu/springcloud/controller/PaymentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/atguigu/springcloud/controller/PaymentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/atguigu/springcloud/controller/PaymentController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,7 +214,7 @@
       <workItem from="1595421902137" duration="638000" />
       <workItem from="1595507522299" duration="4551000" />
       <workItem from="1595595070422" duration="5179000" />
-      <workItem from="1595642473303" duration="6804000" />
+      <workItem from="1595642473303" duration="9176000" />
     </task>
     <servers />
   </component>
@@ -238,38 +241,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="569" y="182" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1595605350819" />
-    <state width="1150" height="222" key="GridCell.Tab.0.bottom" timestamp="1595659479453">
+    <state width="1150" height="222" key="GridCell.Tab.0.bottom" timestamp="1595661139080">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1150" height="222" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595659479453" />
-    <state width="1150" height="222" key="GridCell.Tab.0.center" timestamp="1595659479453">
+    <state width="1150" height="222" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595661139080" />
+    <state width="1150" height="222" key="GridCell.Tab.0.center" timestamp="1595661139079">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1150" height="222" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595659479453" />
-    <state width="1150" height="222" key="GridCell.Tab.0.left" timestamp="1595659479453">
+    <state width="1150" height="222" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595661139079" />
+    <state width="1150" height="222" key="GridCell.Tab.0.left" timestamp="1595661139079">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1150" height="222" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595659479453" />
-    <state width="1150" height="222" key="GridCell.Tab.0.right" timestamp="1595659479453">
+    <state width="1150" height="222" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595661139079" />
+    <state width="1150" height="222" key="GridCell.Tab.0.right" timestamp="1595661139079">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1150" height="222" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595659479453" />
-    <state width="1150" height="222" key="GridCell.Tab.1.bottom" timestamp="1595659479454">
+    <state width="1150" height="222" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595661139079" />
+    <state width="1150" height="222" key="GridCell.Tab.1.bottom" timestamp="1595661139080">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1150" height="222" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595659479454" />
-    <state width="1150" height="222" key="GridCell.Tab.1.center" timestamp="1595659479453">
+    <state width="1150" height="222" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595661139080" />
+    <state width="1150" height="222" key="GridCell.Tab.1.center" timestamp="1595661139080">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1150" height="222" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1595659479453" />
-    <state width="1150" height="222" key="GridCell.Tab.1.left" timestamp="1595659479453">
+    <state width="1150" height="222" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1595661139080" />
+    <state width="1150" height="222" key="GridCell.Tab.1.left" timestamp="1595661139080">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1150" height="222" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1595659479453" />
-    <state width="1150" height="222" key="GridCell.Tab.1.right" timestamp="1595659479454">
+    <state width="1150" height="222" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1595661139080" />
+    <state width="1150" height="222" key="GridCell.Tab.1.right" timestamp="1595661139080">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1150" height="222" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1595659479454" />
+    <state width="1150" height="222" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1595661139080" />
     <state width="1155" height="196" key="GridCell.Tab.2.bottom" timestamp="1594815007922">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
