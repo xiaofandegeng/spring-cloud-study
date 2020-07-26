@@ -31,7 +31,7 @@ public class PaymentController {
 
     public CommonResult create(@RequestBody Payment payment) {
         int result = paymentService.create(payment);
-        log.info("******插入结果：" + result);
+//        log.info("******插入结果：" + result);
 
         if (result > 0) {
             return new CommonResult(200,"插入数据库成功，serverPort：" + serverPort, result);
@@ -43,7 +43,7 @@ public class PaymentController {
     @GetMapping(value = "/payment/getPaymentById/{id}")
     public CommonResult getPaymentById(@PathVariable("id") Long id) {
         Payment result = paymentService.getPaymentById(id);
-        log.info("******插入结果：" + result);
+//        log.info("******插入结果：" + result);
 
         if (result != null){
             return new CommonResult(200,"根据id查询成功，serverPort：" + serverPort, result);
@@ -56,7 +56,7 @@ public class PaymentController {
     public Object discovery() {
         List<String> services = discoveryClient.getServices();
         for (String s:services) {
-            log.info(s);
+//            log.info(s);
         }
 
         List<ServiceInstance> instances = discoveryClient.getInstances("CLOUD-PROVIDER-SERVICE");
@@ -77,5 +77,7 @@ public class PaymentController {
         }
         return "这是服务端口："  + serverPort;
     }
+
+
 
 }
