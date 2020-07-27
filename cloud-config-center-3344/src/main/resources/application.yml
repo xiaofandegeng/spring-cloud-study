@@ -7,10 +7,12 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/xiaofandegeng/sprincloud-config.git
+          uri: https://github.com/xiaofandegeng/springcloud-config.git
           search-paths:
             - springcloud-config
       label: master
+#      name: config
+#      profile: test
 eureka:
   client:
     service-url:
