@@ -1,3 +1,5 @@
 spring:
   profiles:
-    active: dev
+    active: test #新命名空间test
+#    active: info #测试分组
+#    active: dev #默认分组
