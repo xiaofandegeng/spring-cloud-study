@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00b1c56b-8785-4d9e-aac8-986315eeb710" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/ning4256/MainApp8401.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/ning4256/controller/FlowLimitController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/ning4256/controller/ReenterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/ning4256/handler/CustomerBlockHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/ning4256/controller/FlowLimitController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/ning4256/controller/FlowLimitController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/target/classes/com/ning4256/controller/FlowLimitController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/target/classes/com/ning4256/controller/FlowLimitController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +64,9 @@
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/cloudalibaba-provider-payment9002/src/main/resources" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
@@ -87,6 +89,13 @@
     <configuration name="ConfigCenterMain3344" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-config-center-3344" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.ConfigCenterMain3344" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigClientMain3355" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-config-client-3355" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.ConfigClientMain3355" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -297,7 +306,9 @@
       <workItem from="1595850524998" duration="4196000" />
       <workItem from="1596459196864" duration="615000" />
       <workItem from="1597058301482" duration="5976000" />
-      <workItem from="1597153198099" duration="2692000" />
+      <workItem from="1597153198099" duration="3439000" />
+      <workItem from="1597231347318" duration="900000" />
+      <workItem from="1597321890245" duration="6839000" />
     </task>
     <servers />
   </component>
@@ -324,38 +335,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="569" y="182" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1595857635848" />
-    <state width="1076" height="244" key="GridCell.Tab.0.bottom" timestamp="1597156540124">
+    <state width="1158" height="276" key="GridCell.Tab.0.bottom" timestamp="1597330013527">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1076" height="244" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597156540124" />
-    <state width="1076" height="244" key="GridCell.Tab.0.center" timestamp="1597156540124">
+    <state width="1158" height="276" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597330013527" />
+    <state width="1158" height="276" key="GridCell.Tab.0.center" timestamp="1597330013527">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1076" height="244" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597156540124" />
-    <state width="1076" height="244" key="GridCell.Tab.0.left" timestamp="1597156540123">
+    <state width="1158" height="276" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597330013527" />
+    <state width="1158" height="276" key="GridCell.Tab.0.left" timestamp="1597330013527">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1076" height="244" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597156540123" />
-    <state width="1076" height="244" key="GridCell.Tab.0.right" timestamp="1597156540124">
+    <state width="1158" height="276" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597330013527" />
+    <state width="1158" height="276" key="GridCell.Tab.0.right" timestamp="1597330013527">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1076" height="244" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597156540124" />
-    <state width="1076" height="244" key="GridCell.Tab.1.bottom" timestamp="1597156540125">
+    <state width="1158" height="276" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597330013527" />
+    <state width="1158" height="276" key="GridCell.Tab.1.bottom" timestamp="1597330013527">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1076" height="244" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597156540125" />
-    <state width="1076" height="244" key="GridCell.Tab.1.center" timestamp="1597156540125">
+    <state width="1158" height="276" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597330013527" />
+    <state width="1158" height="276" key="GridCell.Tab.1.center" timestamp="1597330013527">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1076" height="244" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1597156540125" />
-    <state width="1076" height="244" key="GridCell.Tab.1.left" timestamp="1597156540124">
+    <state width="1158" height="276" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1597330013527" />
+    <state width="1158" height="276" key="GridCell.Tab.1.left" timestamp="1597330013527">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1076" height="244" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1597156540124" />
-    <state width="1076" height="244" key="GridCell.Tab.1.right" timestamp="1597156540125">
+    <state width="1158" height="276" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1597330013527" />
+    <state width="1158" height="276" key="GridCell.Tab.1.right" timestamp="1597330013527">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1076" height="244" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1597156540125" />
+    <state width="1158" height="276" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1597330013527" />
     <state width="1155" height="196" key="GridCell.Tab.2.bottom" timestamp="1594815007922">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -376,10 +387,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="699" y="227" width="837" height="559" key="Registry/0.0.1536.824@0.0.1536.824" timestamp="1594730564426" />
-    <state x="448" y="70" key="SettingsEditor" timestamp="1597157125106">
+    <state x="448" y="0" key="SettingsEditor" timestamp="1597231629416">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="448" y="70" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1597157125106" />
+    <state x="448" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1597231629416" />
     <state x="467" y="115" width="602" height="594" key="find.popup" timestamp="1595645788320">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
