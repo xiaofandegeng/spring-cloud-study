@@ -2,10 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00b1c56b-8785-4d9e-aac8-986315eeb710" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/ning4256/controller/ReenterController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/ning4256/handler/CustomerBlockHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/ning4256/controller/FlowLimitController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/ning4256/controller/FlowLimitController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/target/classes/com/ning4256/controller/FlowLimitController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/target/classes/com/ning4256/controller/FlowLimitController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order84/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order84/src/main/java/com/ning4256/OrderNacosMain84.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order84/src/main/java/com/ning4256/config/ApplicationContextConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order84/src/main/java/com/ning4256/controller/CircleBreakerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order84/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9003/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9003/src/main/java/com/ning4256/PaymentMain9003.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9003/src/main/java/com/ning4256/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9003/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9004/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9004/src/main/java/ning4256/PaymentMain9004.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9004/src/main/java/ning4256/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9004/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +72,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloudalibaba-provider-payment9002/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloudalibaba-provider-payment9004/src/main/resources" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -71,11 +81,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\daima\java\spring-cloud\spring-cloud-study\cloudalibaba-provider-payment9004\src\main\resources" />
+      <recent name="D:\daima\java\spring-cloud\spring-cloud-study\cloudalibaba-provider-payment9004\src\main\java" />
       <recent name="D:\daima\java\spring-cloud\spring-cloud-study\cloudalibaba-provider-payment9002\src\main\resources" />
       <recent name="D:\daima\java\spring-cloud\spring-cloud-study\cloudalibaba-provider-payment9002\src\main\java" />
       <recent name="D:\daima\java\spring-cloud\cloud-provider-hystrix-payment8001\src\main\resources" />
-      <recent name="D:\daima\java\spring-cloud\cloud-provider-payment8002\src\main\resources" />
-      <recent name="D:\daima\java\spring-cloud\cloud-api-common\src\main\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -85,7 +95,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MainApp8401">
+  <component name="RunManager" selected="Spring Boot.OrderNacosMain84">
     <configuration name="ConfigCenterMain3344" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-config-center-3344" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.ConfigCenterMain3344" />
@@ -195,6 +205,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OrderNacosMain84" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloudalibaba-consumer-nacos-order84" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ning4256.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ning4256.OrderNacosMain84" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OrderZKMain80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-consumerzk-order80" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.OrderZKMain80" />
@@ -237,39 +260,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PaymentMain9001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="PaymentMain9001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloudalibaba-provider-payment9001" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.PaymentMain9001" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PaymentMain9002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloudalibaba-provider-payment9002" />
+    <configuration name="PaymentMain9003" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloudalibaba-provider-payment9003" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ning4256.PaymentMain9003" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentMain9004" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloudalibaba-provider-payment9004" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="atguigu.*" />
+          <option name="PATTERN" value="ning4256.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="atguigu.PaymentMain9002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ning4256.PaymentMain9004" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.MainApp8401" />
+        <item itemvalue="Spring Boot.OrderNacosMain84" />
+        <item itemvalue="Spring Boot.PaymentMain9004" />
         <item itemvalue="Spring Boot.OrderNacosMain83" />
+        <item itemvalue="Spring Boot.MainApp8401" />
         <item itemvalue="Spring Boot.NacosConfigClientMain3377" />
-        <item itemvalue="Spring Boot.PaymentMain9002" />
-        <item itemvalue="Spring Boot.PaymentMain9001" />
       </list>
     </recent_temporary>
   </component>
@@ -308,7 +332,8 @@
       <workItem from="1597058301482" duration="5976000" />
       <workItem from="1597153198099" duration="3439000" />
       <workItem from="1597231347318" duration="900000" />
-      <workItem from="1597321890245" duration="6839000" />
+      <workItem from="1597321890245" duration="7679000" />
+      <workItem from="1597663442194" duration="3357000" />
     </task>
     <servers />
   </component>
@@ -335,38 +360,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="569" y="182" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1595857635848" />
-    <state width="1158" height="276" key="GridCell.Tab.0.bottom" timestamp="1597330013527">
+    <state width="1158" height="162" key="GridCell.Tab.0.bottom" timestamp="1597666472442">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1158" height="276" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597330013527" />
-    <state width="1158" height="276" key="GridCell.Tab.0.center" timestamp="1597330013527">
+    <state width="1158" height="162" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597666472442" />
+    <state width="1158" height="162" key="GridCell.Tab.0.center" timestamp="1597666472442">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1158" height="276" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597330013527" />
-    <state width="1158" height="276" key="GridCell.Tab.0.left" timestamp="1597330013527">
+    <state width="1158" height="162" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597666472442" />
+    <state width="1158" height="162" key="GridCell.Tab.0.left" timestamp="1597666472442">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1158" height="276" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597330013527" />
-    <state width="1158" height="276" key="GridCell.Tab.0.right" timestamp="1597330013527">
+    <state width="1158" height="162" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597666472442" />
+    <state width="1158" height="162" key="GridCell.Tab.0.right" timestamp="1597666472442">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1158" height="276" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597330013527" />
-    <state width="1158" height="276" key="GridCell.Tab.1.bottom" timestamp="1597330013527">
+    <state width="1158" height="162" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597666472442" />
+    <state width="1158" height="162" key="GridCell.Tab.1.bottom" timestamp="1597666472443">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1158" height="276" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597330013527" />
-    <state width="1158" height="276" key="GridCell.Tab.1.center" timestamp="1597330013527">
+    <state width="1158" height="162" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597666472443" />
+    <state width="1158" height="162" key="GridCell.Tab.1.center" timestamp="1597666472442">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1158" height="276" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1597330013527" />
-    <state width="1158" height="276" key="GridCell.Tab.1.left" timestamp="1597330013527">
+    <state width="1158" height="162" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1597666472442" />
+    <state width="1158" height="162" key="GridCell.Tab.1.left" timestamp="1597666472442">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1158" height="276" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1597330013527" />
-    <state width="1158" height="276" key="GridCell.Tab.1.right" timestamp="1597330013527">
+    <state width="1158" height="162" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1597666472442" />
+    <state width="1158" height="162" key="GridCell.Tab.1.right" timestamp="1597666472443">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1158" height="276" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1597330013527" />
+    <state width="1158" height="162" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1597666472443" />
     <state width="1155" height="196" key="GridCell.Tab.2.bottom" timestamp="1594815007922">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -395,10 +420,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="467" y="115" width="602" height="594" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1595645788320" />
-    <state x="402" y="33" width="1019" height="780" key="new project wizard" timestamp="1597156463375">
+    <state x="517" y="58" width="1019" height="760" key="new project wizard" timestamp="1597665831397">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="402" y="33" width="1019" height="780" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1597156463375" />
+    <state x="517" y="58" width="1019" height="760" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1597665831397" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1595659428346">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
